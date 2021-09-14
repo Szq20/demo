@@ -19,3 +19,13 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+## 接入single-spa需要的配置
+- publicPath
+- 暴露manifest.json
+- CORS
+- single-spa-vue
+- libraryTarget
+- mount 方法设为数组
+
+参考链接： https://zh-hans.single-spa.js.org/docs/recommended-setup/#build-tools-webpack--rollup
