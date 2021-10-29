@@ -40,7 +40,7 @@ module.exports = {
 
     // Paths
     assetsRoot: path.resolve(__dirname, "../pub"),
-    assetsSubDirectory: "static",
+    assetsSubDirectory: "demo",
     assetsPublicPath: "/demo/",
 
     /**
